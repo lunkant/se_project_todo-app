@@ -12,6 +12,7 @@ Give a description of the technologies and techniques used. Pictures, GIFs, or s
 
 ## Deployment
 
-This project is deployed on GitHub Pages:
+This project is deployed on GitHub Pages: https://lunkant.github.io/se_project_todo-app/
 
 - ADD LINK HERE
+  https://lunkant.github.io/se_project_todo-app/
