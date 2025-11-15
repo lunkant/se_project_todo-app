@@ -1,8 +1,7 @@
-class popup {
+class Popup {
   constructor({ popupSelector }) {
     this._popupElement = document.querySelector(popupSelector);
     this._popupCloseBtn = this._popupElement.querySelector(".popup__close");
-    this._addTodoButton = document.querySelector(".button_action_add");
   }
 
   _handleEscapeClose = (evt) => {
@@ -19,8 +18,6 @@ class popup {
     document.removeEventListener("keyup", this._handleEscapeClose);
   }
   setEventListeners() {
-    // ddTodoButton.addEventListener("click", () => openModal(addTodoPopupEl));
-    // this._popupCloseBtn.addEventListener("click", () => this.close());
     this._popupElement.addEventListener("mousedown", (evt) => {
       if (
         evt.target.classList.contains("popup__close") ||
@@ -32,4 +29,4 @@ class popup {
   }
 }
 
-export default popup;
+export default Popup;

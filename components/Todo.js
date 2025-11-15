@@ -16,7 +16,6 @@ class Todo {
       this._handleDelete(this._data.completed);
 
       this._todoElement.remove();
-      this._updateTotal(-1);
     });
   }
   _generateCheckboxEl() {
